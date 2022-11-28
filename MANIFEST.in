@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include imperial_design_app *.css
+recursive-include imperial_design_app *.csv
+recursive-include imperial_design_app *.html
+recursive-include imperial_design_app *.ico
+recursive-include imperial_design_app *.js
+recursive-include imperial_design_app *.json
+recursive-include imperial_design_app *.md
+recursive-include imperial_design_app *.png
+recursive-include imperial_design_app *.py
+recursive-include imperial_design_app *.svg
+recursive-include imperial_design_app *.txt
+recursive-exclude imperial_design_app *.pyc
